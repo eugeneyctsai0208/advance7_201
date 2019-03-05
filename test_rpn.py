@@ -9,12 +9,18 @@ class TestBasics(unittest.TestCase):
     def test_subtract(self):
         result = rpn.calculate("5 3 -")
         self.assertEqual(2, result)
-    def test_multiply(self):
-        result = rpn.calculate("5 3 *")
-        self.assertEqual(15, result)
-    def test_divide(self):
-        result = rpn.calculate("6 3 /")
-        self.assertEqual(2, result)
-    def test_power(self):
-        result = rpn.calculate("4 5 ^")
-        self.assertEqual(1024, result)
+    #def test_multiply(self):
+    #    result = rpn.calculate("5 3 *")
+    #    self.assertEqual(15, result)
+    #def test_divide(self):
+    #    result = rpn.calculate("6 3 /")
+    #    self.assertEqual(2, result)
+    #def test_power(self):
+    #    result = rpn.calculate("4 5 ^")
+    #    self.assertEqual(1024, result)
+    #def test_complex1(self):
+    #    result = rpn.calculate("2 4 ^ 1 3 + /")
+    #    self.assertEqual(4, result)
+    #def test_complex2(self):
+    #    result = rpn.calculate("3 7 * 4 6 * +")
+    #    self.assertEqual(45, result)
