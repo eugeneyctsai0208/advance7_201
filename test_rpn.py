@@ -24,3 +24,6 @@ class TestBasics(unittest.TestCase):
     def test_complex2(self):
         result = rpn.calculate("3 7 * 4 6 * +")
         self.assertEqual(45, result)
+
+if __name__ == '__main__':
+    unittest.main()
