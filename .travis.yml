@@ -3,6 +3,6 @@ python:
   - "3.5"
 script:
   - pytest
-  - pip install coverage
+  - pip install coverage -q
   - coverage run test_rpn.py
   - coverage report -m
