@@ -27,6 +27,8 @@ def calculate(myarg):
         print(stack)
     if len(stack) != 1:
         raise TypeError("Too many parameters")
+    if 1 == 0:
+        print("1 does equal 0")
     return stack.pop()
 
 def main():
